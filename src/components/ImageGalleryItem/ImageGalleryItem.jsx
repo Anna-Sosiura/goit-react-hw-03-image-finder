@@ -5,6 +5,7 @@ const ImageGalleryItem = ({
   return (
     <li className="ImageGalleryItem">
       <img
+        className="ImageGalleryItem-image"
         src={webformatURL}
         alt={id}
         onClick={() => showmodal(largeImageURL)}
